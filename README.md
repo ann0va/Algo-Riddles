@@ -1,7 +1,9 @@
 # Algo-Riddles
  Program that simply outputs which cats have hats at the end
 
-You have 100 cats.
+## Task 
+
+**You have 100 cats**
 
 One day you decide to arrange all your cats in a giant circle. 
 Initially, none of your cats have any hats on. 
@@ -14,11 +16,14 @@ Every time you stop at a cat, you either put a hat on it if it doesn’t have on
     You continue this process until you’ve made 100 rounds around the cats (e.g., you only visit the 100th cat). 
 
 Write a program that simply outputs which cats have hats at the end.
-Optional: Make a function that can calculate hats with any amount of rounds and cats.
+
+***Optional: Make a function that can calculate hats with any amount of rounds and cats.***
+ 
 
 
-#Pseudocode
+## Pseudocode
 
+~~~
 function getCatsWithHat(numCats, rounds):
     // Initialize a list catsArr with numCats elements, all set to False
     catsArr = [False] * numCats
@@ -45,8 +50,10 @@ result = getCatsWithHat(100, 100)
 
 // Print the result
 print(result)
+~~~
 
-#Complexity of the algorithm 
+## Complexity of the algorithm 
+
 The complexity of the algorithm is O(n * m), where n is the number of cats (numCats), and m is the number of rounds (rounds).
 
 
